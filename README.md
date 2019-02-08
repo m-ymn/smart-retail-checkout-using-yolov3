@@ -7,7 +7,8 @@ An implementation of the yolov3 for the detection of objects for retail checkout
 This repo contains inference for YOLOv3 in Python. Training is done on Ubuntu linux OS with CUDA installed by following this repo https://github.com/AlexeyAB/darknet. Credit to Joseph Redmon for YOLO (https://pjreddie.com/darknet/yolo/) and to Adrian Rosebrock for the Opencv implementation. This work is based on (https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/)
 
 # Testing
-
+1.Download weights from (https://www.dropbox.com/sh/162cuh5thdq3y7s/AABIockk1W4IdQWK2XYYXnDCa?dl=0) and put them to yolo-data folder
+2.Run yolo.py
 
 
 

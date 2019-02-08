@@ -130,8 +130,8 @@ if len(idxs) > 0:
 			0.5, color, 1)
 		fil = open("output/img.txt", "w")
 		fil.write(text + '\n')
-		prc = [5,10,200,10,50,10,10,10,5,600]
-		pr += int(prc[classIDs[i]])
+		prc = [5,10,200,10,50,10,10,10,5,600]   # prices of items
+		pr += int(prc[classIDs[i]])     
 
 
 

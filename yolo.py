@@ -26,7 +26,7 @@ cap.release()
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", default="images/i135.jpg",
 	help="path to input image")
-ap.add_argument("-y", "--yolo", default="yolo-coco",
+ap.add_argument("-y", "--yolo", default="yolo-data",
 	help="base path to YOLO directory")
 ap.add_argument("-c", "--confidence", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
